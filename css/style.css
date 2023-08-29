@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;  
+  text-decoration: none;  
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+    background-color: #010232;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    margin: 40px;
+}
+
+header {
+  color: #fff;
+  display: flex;
+  gap: 100px;
+  
+}
+
+.menu, li {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+h1 {
+  color: #db1ab8;
+    font-family: Museo Sans Bold;
+    font-size: 1.75rem;
+}
+
+
+p {
+  color: #fff;
+    font-family: Museo Sans Thin;
+    font-size: 1.125rem;
+    margin: 50px 0;
+    max-width: 640px;
+    text-align: left;
+}
+
+span {
+  color: #01c7f0;
+  font-family: Museo Sans Thin;
+    font-size: 1.125rem;
+}
